@@ -37,7 +37,7 @@ steps:
     dockerfile: docker/Dockerfile.agent.linux.amd64
     password:
       from_secret: docker_password
-    repo: drone/agent
+    repo: goodbai/drone-agent
     username:
       from_secret: docker_username
   when:
@@ -53,7 +53,7 @@ steps:
     dockerfile: docker/Dockerfile.controller.linux.amd64
     password:
       from_secret: docker_password
-    repo: drone/controller
+    repo: goodbai/drone-controller
     username:
       from_secret: docker_username
   when:
@@ -69,7 +69,7 @@ steps:
     dockerfile: docker/Dockerfile.server.linux.amd64
     password:
       from_secret: docker_password
-    repo: drone/drone
+    repo: goodbai/drone
     username:
       from_secret: docker_username
   when:
@@ -120,7 +120,7 @@ steps:
     dockerfile: docker/Dockerfile.agent.linux.arm
     password:
       from_secret: docker_password
-    repo: drone/agent
+    repo: goodbai/drone-agent
     username:
       from_secret: docker_username
   when:
@@ -136,7 +136,7 @@ steps:
     dockerfile: docker/Dockerfile.controller.linux.arm
     password:
       from_secret: docker_password
-    repo: drone/controller
+    repo: goodbai/drone-controller
     username:
       from_secret: docker_username
   when:
@@ -152,7 +152,7 @@ steps:
     dockerfile: docker/Dockerfile.server.linux.arm
     password:
       from_secret: docker_password
-    repo: drone/drone
+    repo: goodbai/drone
     username:
       from_secret: docker_username
   when:
@@ -203,7 +203,7 @@ steps:
     dockerfile: docker/Dockerfile.agent.linux.arm64
     password:
       from_secret: docker_password
-    repo: drone/agent
+    repo: goodbai/drone-agent
     username:
       from_secret: docker_username
   when:
@@ -219,7 +219,7 @@ steps:
     dockerfile: docker/Dockerfile.controller.linux.arm64
     password:
       from_secret: docker_password
-    repo: drone/controller
+    repo: goodbai/drone-controller
     username:
       from_secret: docker_username
   when:
@@ -235,7 +235,7 @@ steps:
     dockerfile: docker/Dockerfile.server.linux.arm64
     password:
       from_secret: docker_password
-    repo: drone/drone
+    repo: goodbai/drone
     username:
       from_secret: docker_username
   when:
